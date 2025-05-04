@@ -1,0 +1,154 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background-color: #d9d9d9;
+ font-family: sans-serif;
+}
+
+.contenedor {
+ width: 100%;
+ margin: 0 auto;
+}
+
+.fila {
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+}
+
+header.fila {
+ width: 100%;
+ padding: 10px;
+ background-color: #fff;
+ justify-content: space-between;
+ align-items: center;
+}
+
+#logo {
+ font-family: "Georgia", serif;
+ font-weight: 900;
+ font-stretch: condensed;
+}
+
+nav.menu {
+ display: flex;
+ align-items: center;
+}
+
+nav.menu > div {
+ margin: 0 10px;
+}
+
+nav.menu li {
+ display	:	inline;
+ margin		:	0  35px;;
+ float		:	right;
+ font-size	: 	25px;
+ }
+
+a {
+ color		: 	#000000;
+ text-decoration: 	none;
+ }
+
+#imagen {
+ width: 100%;
+ text-align: center;
+ background-color: #000;
+ height: 400px;
+}
+
+#imagen img {
+ max-width: 100%;
+ height: auto;
+}
+
+#lema {
+ width: 100%;
+ text-align: center;
+ padding: 20px 0;
+ font-size: 1.5rem;
+}
+
+.col-lg-12 {
+ display: flex;
+ justify-content: center; 
+ align-items: center;
+ flex-wrap: wrap; 
+ gap: 10px; 
+}
+
+.col-lg-12 img {
+ width: 300px; 
+ max-width: 100%; 
+ height: 300px; 
+}
+
+
+footer {
+ width: 100%;
+ text-align: center;
+ padding: 10px 0;
+ background-color: #fff;
+}
+
+footer p.contactar {
+ font-family: "Georgia", sans-serif;
+ display: inline-block;
+ background-color: grey;
+ color: black;
+ padding: 5px 10px;
+ font-size: 1.5rem;
+ font-weight: bold;
+ margin: 0 auto;
+}
+
+
+
+/* LARGE (lg) - a partir de 1200px */
+@media (min-width: 1200px) {
+  .col-lg-12 { width: 100%; }
+}
+
+/* MEDIUM (md) - de 992px a 1199px */
+@media (max-width: 1199px) and (min-width: 992px) {
+  .col-md-12 { width: 100%; }
+}
+
+/* SMALL (sm) - de 768px a 991px */
+@media (max-width: 991px) and (min-width: 768px) {
+  .col-sm-12 { width: 100%; }
+}
+
+/* EXTRA SMALL (xs) - hasta 767px */
+@media (max-width: 767px) {
+  .col-xs-12 { width: 100%; }
+  .col-lg-12 img {
+    width: 48%; 
+  }
+  
+header.fila {
+ flex-direction: column;
+ align-items: center;
+  }
+  
+nav.menu {
+ margin-top: 10px;
+ flex-wrap: wrap;
+ justify-content: center;
+  }
+  
+nav.menu > div {
+ margin: 5px;
+  }
+
+
+@media (max-width: 480px) {
+  .col-lg-12 img {
+    width: 100%; 
+  }
+}

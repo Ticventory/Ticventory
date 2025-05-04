@@ -1,0 +1,67 @@
+body {
+ font-family	: 	Arial, sans-serif;
+ background-color: 	#f9f9f9;
+ margin		: 	0;
+ padding	: 	0;
+ text-align	: 	center;
+     }
+
+header {
+ background-color: 	#FFFFFF;
+ color		: 	#000000;
+ padding	: 	15px;
+ font-weight	: 	bold;
+ font-size	: 	24px;
+        }
+
+nav.menu li {
+ display	:	inline;
+ margin		:	0  35px;;
+ float		:	right;
+ font-size	: 	25px;
+ }
+
+a {
+ color		: 	#000000;
+ text-decoration: 	none;
+  }
+
+h1 {
+ font-family	: 	'Georgia', serif;
+ font-size	: 	36px;
+ margin-top	: 	20px;
+   }
+
+p {
+ font-size	: 	20px;
+ width		: 	80%;
+ margin		: 	0 auto 30px;
+   }
+       
+h2 {
+ color		: 	purple;
+ font-family: 'Georgia', serif;
+   }
+
+.container {
+ display	: 	flex;
+ justify-content: 	center;
+ gap		: 	50px;
+ margin-bottom	: 	50px;
+   }
+.card {
+ background-color: 	#e3aee8;
+ padding	: 	20px;
+ width		: 	200px;
+ border-radius: 	10px;
+   }
+        
+.card img {
+  width: 100px;
+  height: 100px;
+        }
+
+.card p {
+  margin-top	: 	10px;
+  font-weight	: 	bold;
+   }

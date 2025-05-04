@@ -1,0 +1,51 @@
+* {	
+ margin		:	0px;
+ padding	:	0px;
+ list-style	:	none;
+ text-decoration:	none;
+ }
+
+H1 {
+ font-family	:	Times New Roman;
+ font-size	:	90px;
+ text-align	:	left;
+ }
+
+#principal {
+ width		:	90%;
+ margin		:	0 auto;
+ background	:	#FFFFFF;
+ }
+
+#nav {
+ height		:	60px;
+ margin		:	1%;
+ background	:	#000000;
+ color		:	#FFFFFF;
+ font-family	:	Arial Black;
+ font-size	:	40px;
+ }
+
+#nav li {
+ display	:	inline;
+ margin		:	1%;
+ float		:	right;
+ }
+ 
+  a {
+ color		:	 #000000;
+ }
+
+#header {
+ height		:	150px;
+ margin		:	1%;
+ background	:	#FFFFFF;
+ }
+
+#main {
+ height		:	160px;
+ margin		:	1%;
+ background	:	#EDEDED;
+ font-family	:	Times New Roman;
+ font-size	:	40px;
+ }
